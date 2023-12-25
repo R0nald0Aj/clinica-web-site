@@ -1,0 +1,59 @@
+ .card-doctor-container{
+      background-color: transparent;
+     width: 20vw;
+     height: 100%;
+     box-shadow: 0 0 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+ }
+ .card-doctor-container:hover {
+    width: 21vw;
+    height: 100%;
+}
+.card-doctor-container:hover{
+  transform: scale(1.05);
+}
+
+
+
+.img-doctor{
+     background: url("https://ld-wt73.template-help.com/wt_prod-30370/images/team-1-270x350.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: 30%;
+     width: 100%;
+     height: 100%;
+ }
+.img-doctor .list-icon{
+  display: none;
+  background: rgba(255, 255, 255, 0.6);
+  height: 100%;
+}
+
+.img-doctor .list-icon li{
+  list-style: none;
+}
+.img-doctor .list-icon a{
+   color: #c71f1f;
+   text-decoration: none;
+} 
+.img-doctor .list-icon a img{
+  height: 20px;
+} 
+ 
+.card-doctor-container:hover .img-doctor .list-icon{
+  display: flex;
+  background: rgba(255, 255, 255, 0.6);
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+ 
+.card-doctor-container > p,span{
+    margin: 12px 15px;
+}
+
+
+
+
