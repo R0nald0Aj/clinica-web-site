@@ -1,37 +1,49 @@
-<app-header></app-header>
-<app-carouselcomponent></app-carouselcomponent>
-<!-- <div class="search-location">
-     <form action="location">
-          <input type="text" placeholder="Buscar por  nome do médico">
-          <input type="text" placeholder="adicione sua localização">
-        <button type="submit">Buscar</button>
-     </form>
-</div> -->
-<section id="about">
-     <div class="title-about">
-         <h3>Lorem ipsum dolor sit ame</h3>
-     </div>
-     <div class="text_about">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-               Nemo magnam, consequuntur voluptate architecto nihil 
-               quisquam reiciendis accusamus tempora delectus qui et deleniti, 
-               nobis at in, corporis quae sequi quaerat laborum?</p>
-          <button>Sobre nós</button>
-        </div>
-</section>
-<br>
-     <section id="card-info"> 
-          <app-card-info/>
-          <app-card-info/>
-          <app-card-info/>
+<div class="home_page_container">
+     <app-header></app-header>
+     <section id="app-carusel-container">
+          <app-carouselcomponent></app-carouselcomponent>
      </section>
-<br>
-     <section id="card-doctor">
-          <h2>Nossos Profissionais</h2>
-          <div class="doctors-profile">
-               <app-card-doctor/>
-                <app-card-doctor/>
-               <app-card-doctor/>
+
+     <section id="about">
+          <div class="title-about">
+          <h3>Lorem ipsum dolor sit ame</h3>
+          </div>
+          <div class="text_about">
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Nemo magnam, consequuntur voluptate architecto nihil 
+                    quisquam reiciendis accusamus tempora delectus qui et deleniti, 
+                    nobis at in, corporis quae sequi quaerat laborum?</p>
+               <button>Sobre nós</button>
           </div>
      </section>
-                               
+     <br>
+          <section id="card-info"> 
+               <app-card-info/>
+               <app-card-info/>
+               <app-card-info/>
+          </section>
+     <br>
+          <section id="card-doctor">
+               <h2>Nossos Profissionais</h2>
+               <div class="doctors-profile">
+                    <app-card-doctor/>
+                    <app-card-doctor/>
+                    <app-card-doctor/>
+                    <app-card-doctor/>
+                    <app-card-doctor/>
+                    <app-card-doctor/>
+               </div>
+          </section>
+     <br/>
+     <div class="search-location">
+          <form action="location">
+               <input type="text" placeholder="Buscar por  nome do médico">
+               <input type="text" placeholder="adicione sua localização">
+          <button type="submit">Buscar</button>
+          </form>
+     </div>
+     <section id="fotter_component_container">
+          <app-footer-component/>
+     </section>                              
+
+</div>

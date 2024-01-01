@@ -9,6 +9,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { NgbCarousel } from '@ng-bootstrap/ng-bootstrap';
 import { CardDoctorComponent } from './components/card/card-doctor/card-doctor.component';
 import { CardInfoComponent } from './components/card/card-info/card-info.component';
+import { FooterComponentComponent } from './components/footer-component/footer-component.component';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { CardInfoComponent } from './components/card/card-info/card-info.compone
     HeaderComponent,
     CarouselcomponentComponent,
     CardInfoComponent,
-    CardDoctorComponent
+    CardDoctorComponent,
+    FooterComponentComponent
   ],
   imports: [
     BrowserModule,

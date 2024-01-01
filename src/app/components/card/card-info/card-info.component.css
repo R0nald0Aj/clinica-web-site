@@ -21,8 +21,8 @@
     clip-path: 
       polygon(0 0, 100% 0, 100% 100%);
     transition: 
-      width 0.3s ease, height 0.3s ease;
-    z-index: 0;
+      width 1s ease, height 1s ease;
+      z-index: 0;
   }
   .card-info-container:hover:before {
     width:  200%;
@@ -52,4 +52,14 @@
  
  .card-second-text{
     color: aqua;
+ }
+
+ @media screen and (max-width:886px) {
+   .card-fist-text{
+      font-size: 1rem;
+   }
+   .card-second-text{
+      font-size: 0.7rem;
+   }
+    
  }
